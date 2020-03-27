@@ -1,14 +1,17 @@
 import java.util.Scanner;
 
-public class ClienteController {
+public class ClienteController2 {
 
     public static void main(String[] args) {
 
-        int aux = Integer.parseInt(digita("quantas pessoas tu quer incluir? "));
+        Cliente negoVeio1 = criaCliente();
+        Cliente negoVeio2 = criaCliente();
+        Cliente negaVeia1 = criaCliente();
+        Cliente negaVeia2 = criaCliente();
 
-        for (int i = 0; i < aux; i++) {
-            Cliente cliente = criaCliente();
-        }
+        System.out.println(negoVeio1+" & "+negaVeia1);
+        System.out.println(negoVeio2+" & "+negaVeia2);
+
     }
 
     public static Cliente criaCliente() {
