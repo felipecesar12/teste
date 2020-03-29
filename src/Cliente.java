@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Cliente {
 
 
@@ -5,7 +7,7 @@ public class Cliente {
     String sobrenome;
     String cpf;
     String idade;
-    String dtNasc;
+    Date dtNasc;
     String nomeEmpresa;
     double salario;
     int credito;
@@ -26,9 +28,9 @@ public class Cliente {
 
     public void setIdade(String idade) { this.idade = idade; }
 
-    public String getDtNasc() { return dtNasc; }
+    public Date getDtNasc() { return dtNasc; }
 
-    public void setDtNasc(String dtNasc) { this.dtNasc = dtNasc; }
+    public void setDtNasc(Date dtNasc) { this.dtNasc = dtNasc; }
 
     public String getNomeEmpresa() { return nomeEmpresa; }
 

@@ -20,7 +20,7 @@ public class Clientedados {
         Cliente negoVeio1 = new Cliente();
         negoVeio1.setNome(digita("Nome: "));
         negoVeio1.setSobrenome(digita("Sobrenome: "));
-        negoVeio1.setIdade(Integer.parseInt(digita("Idade: ")));
+        negoVeio1.setIdade(digita("Idade: "));
         return negoVeio1;
     }
         public static  DadosConta criaDados(){
